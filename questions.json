@@ -454,6 +454,420 @@
           "An organization or individual that provides financial or other support for an initiative."
         ]
       },
-      
-
+      {
+        "id": 36,
+        "question": "What is a person or organization that has an interest or involvement in an organization, product, service, practice, or other entity?",
+        "options": [
+          "A Stakeholder.",
+          "A Supplier.",
+          "A Customer.",
+          "A Partner."
+        ],
+        "answer": [
+          "A Stakeholder."
+        ]
+      },
+      {
+        "id": 37,
+        "question": "What is the continual improvement team?",
+        "options": [
+          "The role that leads and advocates continual improvement across the organization.",
+          "The team responsible for delivering daily operational tasks.",
+          "The group that designs and develops new services and products.",
+          "The team responsible for service recovery and incident management."
+        ],
+        "answer": [
+          "The role that leads and advocates continual improvement across the organization."
+        ]
+      },
+      {
+        "id": 38,
+        "question": "What is the point of communication between the service provider and all its users?",
+        "options": [
+          "The Service Desk.",
+          "The Business Relationship Manager.",
+          "The User Interface.",
+          "The Service Provider Portal."
+        ],
+        "answer": [
+          "The Service Desk."
+        ]
+      },
+      {
+        "id": 40,
+        "question": "What is a role that is accountable for the delivery of a specific service?",
+        "options": [
+          "A Service Owner.",
+          "A Service Desk Manager.",
+          "A Business Relationship Manager.",
+          "A Service Provider."
+        ],
+        "answer": [
+          "A Service Owner."
+        ]
+      },
+      {
+        "id": 41,
+        "question": "What is a leader?",
+        "options": [
+          "The role that embeds continual improvement into the way that people think and work.",
+          "The person responsible for overseeing the day-to-day operations of the organization.",
+          "The individual who makes all final decisions on operational issues.",
+          "The team responsible for implementing the service desk processes."
+        ],
+        "answer": [
+          "The role that embeds continual improvement into the way that people think and work."
+        ]
+      },
+      {
+        "id": 42,
+        "question": "What is the role that authorizes budget for service consumption?",
+        "options": [
+          "The Sponsor.",
+          "The User.",
+          "The Service Desk.",
+          "The Service Owner."
+        ],
+        "answer": [
+          "The Sponsor."
+        ]
+      },
+      {
+        "id": 43,
+        "question": "What is used to help plan changes, assist in communication, avoid conflicts, and assign resources?",
+        "options": [
+          "A change schedule.",
+          "A change management system.",
+          "A service catalog.",
+          "An incident report."
+        ],
+        "answer": [
+          "A change schedule."
+        ]
+      },
+      {
+        "id": 44,
+        "question": "What is a process?",
+        "options": [
+          "A set of interrelated or interacting activities that transform inputs into outputs.",
+          "A specific task carried out within a service.",
+          "A resource allocation strategy for managing workloads.",
+          "A predefined method for testing system configurations."
+        ],
+        "answer": [
+          "A set of interrelated or interacting activities that transform inputs into outputs."
+        ]
+      },
+      {
+        "id": 45,
+        "question": "What is a series of steps an organization undertakes to create and deliver products and services to consumers?",
+        "options": [
+          "A Value Stream.",
+          "A Service Lifecycle.",
+          "A Business Model.",
+          "A Service Portfolio."
+        ],
+        "answer": [
+          "A Value Stream."
+        ]
+      },
+      {
+        "id": 46,
+        "question": "What is a release?",
+        "options": [
+          "A version of a service or other configuration item, or a collection of configuration items, that is made available for use.",
+          "A software update that fixes security vulnerabilities.",
+          "A new feature added to a service without modifying the core configuration.",
+          "A temporary version of a service to be tested before full deployment."
+        ],
+        "answer": [
+          "A version of a service or other configuration item, or a collection of configuration items, that is made available for use."
+        ]
+      },
+      {
+        "id": 47,
+        "question": "What is a technique that involves many different stakeholders working together initially, until it becomes clear which of them is best placed to continue and which can move on to other tasks?",
+        "options": [
+          "Swarming.",
+          "Escalation.",
+          "Delegation.",
+          "Collaboration."
+        ],
+        "answer": [
+          "Swarming."
+        ]
+      },
+      {
+        "id": 48,
+        "question": "What is a request form a user or a user's authorized representative that initiates a service action which has been agreed as a normal part of service delivery?",
+        "options": [
+          "A service request.",
+          "An incident report.",
+          "A change request.",
+          "A problem ticket."
+        ],
+        "answer": [
+          "A service request."
+        ]
+      },
+      {
+        "id": 49,
+        "question": "What is a solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available?",
+        "options": [
+          "A Workaround.",
+          "A change request.",
+          "A patch.",
+          "A service level agreement."
+        ],
+        "answer": [
+          "A Workaround."
+        ]
+      },
+      {
+        "id": 50,
+        "question": "What is a work instruction?",
+        "options": [
+          "A detailed description to be followed in order to perform an activity.",
+          "A list of tasks to be completed by a team.",
+          "A summary of tasks to be carried out for the completion of a project.",
+          "A schedule outlining the timeline for a project."
+        ],
+        "answer": [
+          "A detailed description to be followed in order to perform an activity."
+        ]
+      },
+      {
+        "id": 51,
+        "question": "What is a combination of the organization's value chain activities?",
+        "options": [
+          "A value stream.",
+          "A business model.",
+          "A service catalog.",
+          "A resource pool."
+        ],
+        "answer": [
+          "A value stream."
+        ]
+      },
+      {
+        "id": 52,
+        "question": "What is a procedure?",
+        "options": [
+          "A documented way to carry out an activity or a process.",
+          "A formal document outlining the roles and responsibilities of team members.",
+          "A report that tracks the progress of ongoing projects.",
+          "A set of guidelines for decision-making in an organization."
+        ],
+        "answer": [
+          "A documented way to carry out an activity or a process."
+        ]
+      },
+      {
+        "id": 53,
+        "question": "What is intended to help an organization adopt and adapt ITIL guidance?",
+        "options": [
+          "The ITIL guiding principles.",
+          "The ITIL service lifecycle.",
+          "The ITIL framework.",
+          "The ITIL processes."
+        ],
+        "answer": [
+          "The ITIL guiding principles."
+        ]
+      },
+      {
+        "id": 54,
+        "question": "What is a holistic approach to analysis that focuses on the way that a system's constituent parts work, interrelate, and interact over time, and within the context of other systems?",
+        "options": [
+          "Systems thinking.",
+          "Process mapping.",
+          "Root cause analysis.",
+          "Critical path analysis."
+        ],
+        "answer": [
+          "Systems thinking."
+        ]
+      },
+      {
+        "id": 55,
+        "question": "What is the foundation for an organization's culture and behavior from strategic decision-making to day-to-day operations?",
+        "options": [
+          "The ITIL guiding principles.",
+          "The ITIL service lifecycle.",
+          "The ITIL framework.",
+          "The ITIL processes."
+        ],
+        "answer": [
+          "The ITIL guiding principles."
+        ]
+      },
+      {
+        "id": 56,
+        "question": "What is an operating model which outlines the key activities required to respond to demand and facilitate value realization through the creation and management of products and services?",
+        "options": [
+          "The service value chain.",
+          "The service management lifecycle.",
+          "The service delivery model.",
+          "The service catalog."
+        ],
+        "answer": [
+          "The service value chain."
+        ]
+      },
+      {
+        "id": 57,
+        "question": "What is a formal description of one or more services, designed to address the needs of a target consumer group?",
+        "options": [
+          "A service offering.",
+          "A service catalog.",
+          "A service portfolio.",
+          "A service request."
+        ],
+        "answer": [
+          "A service offering."
+        ]
+      },
+      {
+        "id": 58,
+        "question": "What is the sum of the functional and emotional interactions with a service and service provider as perceived by a user?",
+        "options": [
+          "The user experience (UX).",
+          "The service level agreement (SLA).",
+          "The service relationship.",
+          "The service quality."
+        ],
+        "answer": [
+          "The user experience (UX)."
+        ]
+      },
+      {
+        "id": 59,
+        "question": "What is a recommendation that guides an organization in all circumstances, regardless of changes in its goals, strategies, type of work, or management structure?",
+        "options": [
+          "A guiding principle.",
+          "A policy.",
+          "A procedure.",
+          "A service level agreement (SLA)."
+        ],
+        "answer": [
+          "A guiding principle."
+        ]
+      },
+      {
+        "id": 60,
+        "question": "What is the four dimensions model?",
+        "options": [
+          "Defined to ensure a holistic approach to service management.",
+          "A method to calculate service costs based on resources.",
+          "A model used to evaluate service level agreements.",
+          "A structure to categorize IT services by priority."
+        ],
+        "answer": [
+          "Defined to ensure a holistic approach to service management."
+        ]
+      },
+      {
+        "id": 61,
+        "question": "What is any action required to deliver a service output to a user?",
+        "options": [
+          "A service action.",
+          "A service request.",
+          "A service transaction.",
+          "A service task."
+        ],
+        "answer": [
+          "A service action."
+        ]
+      },
+      {
+        "id": 62,
+        "question": "What is a representation of how the various components and activities of the organization work together to facilitate value creation?",
+        "options": [
+          "The service value system.",
+          "The service value chain.",
+          "The service portfolio.",
+          "The service lifecycle."
+        ],
+        "answer": [
+          "The service value system."
+        ]
+      },
+      {
+        "id": 63,
+        "question": "What is a configuration of an organization's resources designed to offer value for a consumer?",
+        "options": [
+          "A product.",
+          "A service.",
+          "A resource pool.",
+          "A service offering."
+        ],
+        "answer": [
+          "A product."
+        ]
+      },
+      {
+        "id": 64,
+        "question": "What is a documented agreement between a service provider and a customer that identifies both services required and the expected level of service?",
+        "options": [
+          "A service level agreement (SLA).",
+          "A service catalog.",
+          "A service request.",
+          "A service portfolio."
+        ],
+        "answer": [
+          "A service level agreement (SLA)."
+        ]
+      },
+      {
+        "id": 65,
+        "question": "What is a step of the value chain that an organization takes in the creation of value?",
+        "options": [
+          "An ITIL value chain activity.",
+          "A service level agreement (SLA).",
+          "A business process.",
+          "A service request."
+        ],
+        "answer": [
+          "An ITIL value chain activity."
+        ]
+      },
+      {
+        "id": 66,
+        "question": "What is a practice?",
+        "options": [
+          "A set of organizational resources designed for performing work or accomplishing an objective.",
+          "A procedure that ensures service quality and compliance.",
+          "A collection of tools and techniques used to manage services.",
+          "A set of documented standards for service management."
+        ],
+        "answer": [
+          "A set of organizational resources designed for performing work or accomplishing an objective."
+        ]
+      },
+      {
+        "id": 67,
+        "question": "What is the point of communication between the service provider and all its users?",
+        "options": [
+          "The service Desk.",
+          "The service provider portal.",
+          "The service manager.",
+          "The user interface."
+        ],
+        "answer": [
+          "The service Desk."
+        ]
+      },
+      {
+        "id": 68,
+        "question": "What is a combination of practices and value chain activities to improve products and services and increase potential value for the consumers and the organization?",
+        "options": [
+          "A value stream.",
+          "A service portfolio.",
+          "A service lifecycle.",
+          "A service catalog."
+        ],
+        "answer": [
+          "A value stream."
+        ]
+      }
 ]

@@ -1207,5 +1207,239 @@
         "answer": [
           "Respecting the time of the people involved."
         ]
+      },
+      {
+        "id": 95,
+        "question": "Which service management dimension incorporates contracts and other agreements between the organization and its partners or suppliers?",
+        "options": [
+          "Partners and suppliers.",
+          "Value streams and processes.",
+          "Information and technology.",
+          "Organizations and people."
+        ],
+        "answer": [
+          "Partners and suppliers."
+        ]
+      },
+      {
+        "id": 96,
+        "question": "Which of the following applies to service management dimension: Value Streams and Processes?",
+        "options": [
+          "Defines the activities, workflows, controls, and procedures needed to achieve agreed objectives.",
+          "Establishes communication channels for stakeholder engagement.",
+          "Manages the hardware and software resources of an organization.",
+          "Outlines the contractual relationships with external vendors."
+        ],
+        "answer": [
+          "Defines the activities, workflows, controls, and procedures needed to achieve agreed objectives."
+        ]
+      },
+      {
+        "id": 97,
+        "question": "Which service management dimension is focused on ensuring that an organization's systems of authority and communication, are well defined and support its overall strategy and operating model?",
+        "options": [
+          "Organizations and people.",
+          "Information and technology.",
+          "Partners and suppliers.",
+          "Value streams and processes."
+        ],
+        "answer": [
+          "Organizations and people."
+        ]
+      },
+      {
+        "id": 98,
+        "question": "Which of the following applies to service management dimension: value streams and process?",
+        "options": [
+          "Is concerned with how the various parts of the organization work in an integrated and coordinated way to enable value creation through products and services",
+          "Focuses on managing the skills and competencies of individual staff members",
+          "Addresses the relationships with third-party service providers",
+          "Handles the governance of information assets and technological resources"
+        ],
+        "answer": [
+          "Is concerned with how the various parts of the organization work in an integrated and coordinated way to enable value creation through products and services"
+        ]
+      },
+      {
+        "id": 99,
+        "question": "Which service management dimension considers whether the organization has the right skills across its staff and suppliers to support and maintain the technology?",
+        "options": [
+          "Information and technology.",
+          "Organizations and people.",
+          "Partners and suppliers.",
+          "Value streams and processes."
+        ],
+        "answer": [
+          "Information and technology."
+        ]
+      },
+      {
+        "id": 100,
+        "question": "Which of the following applies to service management dimension: information and technology?",
+        "options": [
+          "Incorporates the relationships between different components of the SVS, such as the inputs and outputs of activities and practices.",
+          "Focuses on the management of data security and compliance requirements.",
+          "Addresses the hardware, software, and applications used to provide services.",
+          "Concerns the storage and processing of customer and operational information."
+        ],
+        "answer": [
+          "Incorporates the relationships between different components of the SVS, such as the inputs and outputs of activities and practices."
+        ]
+      },
+      {
+        "id": 101,
+        "question": "Which service managements dimension encompasses an organization's relationships with other organizations that are involved in serves?",
+        "options": [
+          "Partners and suppliers.",
+          "Organizations and people.",
+          "Information and technology.",
+          "Value streams and processes."
+        ],
+        "answer": [
+          "Partners and suppliers."
+        ]
+      },
+      {
+        "id": 102,
+        "question": "Which of the following applies to service management dimension: partners and suppliers?",
+        "options": [
+          "Can be addressed by service integration and management (SIAM).",
+          "Focuses on internal staff development and training.",
+          "Manages information security protocols for data sharing.",
+          "Defines the organization's hierarchical structure."
+        ],
+        "answer": [
+          "Can be addressed by service integration and management (SIAM)."
+        ]
+      },
+      {
+        "id": 103,
+        "question": "Which service management dimension acknowledges that everyone should have a broad general knowledge of the other areas of the organization, combined with a deep specialization in certain fields?",
+        "options": [
+          "Organizations and people.",
+          "Information and technology.",
+          "Partners and suppliers.",
+          "Value streams and processes."
+        ],
+        "answer": [
+          "Organizations and people."
+        ]
+      },
+      {
+        "id": 104,
+        "question": "Which of the following applies to service management dimension: value streams and processes?",
+        "options": [
+          "Focuses on activities and how they are organized to enable value creation for all stakeholders.",
+          "Manages employee recruitment and performance evaluation.",
+          "Oversees third-party vendor relationships and contracts.",
+          "Maintains the organization's hardware and software infrastructure."
+        ],
+        "answer": [
+          "Focuses on activities and how they are organized to enable value creation for all stakeholders."
+        ]
+      },
+      {
+        "id": 105,
+        "question": "Which service management dimension is focused on the challenges presented by security and regulatory compliance requirements?",
+        "options": [
+          "Information and technology.",
+          "Organizations and people.",
+          "Partners and suppliers.",
+          "Value streams and processes."
+        ],
+        "answer": [
+          "Information and technology."
+        ]
+      },
+      {
+        "id": 106,
+        "question": "Which of the following applies to service management dimension: organizations and people?",
+        "options": [
+          "Recommends promoting a culture of trust and transparency that encourages the raising of issues before they have impacted customers.",
+          "Focuses primarily on automating processes to reduce human involvement.",
+          "Involves optimizing physical resources and infrastructure.",
+          "Emphasizes technical solutions to improve service quality."
+        ],
+        "answer": [
+          "Recommends promoting a culture of trust and transparency that encourages the raising of issues before they have impacted customers."
+        ]
+      },
+      {
+        "id": 107,
+        "question": "What is an operating model which outlines the key activities required to respond to demand and facilitate value realization through the creation and management of products and services?",
+        "options": [
+          "The Service Value Chain (SVC).",
+          "The Service Value System (SVS).",
+          "The Service Management Lifecycle.",
+          "The Service Catalog."
+        ],
+        "answer": [
+          "The Service Value Chain (SVC)."
+        ]
+      },
+      {
+        "id": 108,
+        "question": "Which describes the four dimensions model?",
+        "options": [
+          "Is defined to ensure a holistic approach to service management.",
+          "Is a method for calculating service costs based on resource usage.",
+          "Defines the main ITIL processes used in service management.",
+          "Describes the roles and responsibilities of service management teams."
+        ],
+        "answer": [
+          "Is defined to ensure a holistic approach to service management."
+        ]
+      },
+      {
+        "id": 109,
+        "question": "What is intended to help an organization adopt and adapt ITIL guidance?",
+        "options": [
+          "The ITIL guiding principles.",
+          "The ITIL service lifecycle.",
+          "The ITIL processes.",
+          "The ITIL framework."
+        ],
+        "answer": [
+          "The ITIL guiding principles."
+        ]
+      },
+      {
+        "id": 110,
+        "question": "Which describes the service value system?",
+        "options": [
+          "Has the purpose to ensure that organization continually co-create value with all stakeholders through the use and management of products and services.",
+          "Is a model that identifies the key activities involved in delivering services.",
+          "Describes how services are structured in an organization to maximize profitability.",
+          "Outlines the process of managing incidents and problems within the organization."
+        ],
+        "answer": [
+          "Has the purpose to ensure that organization continually co-create value with all stakeholders through the use and management of products and services."
+        ]
+      },
+      {
+        "id": 111,
+        "question": "What is the ITIL concept that describes governance?",
+        "options": [
+          "The service value system.",
+          "The service value chain.",
+          "The service management lifecycle.",
+          "The ITIL framework."
+        ],
+        "answer": [
+          "The service value system."
+        ]
+      },
+      {
+        "id": 112,
+        "question": "What is the foundation for an organization's culture and behavior from strategic decision-making to day-to-day operations?",
+        "options": [
+          "The ITIL guiding principles.",
+          "The ITIL framework.",
+          "The service value chain.",
+          "The service portfolio."
+        ],
+        "answer": [
+          "The ITIL guiding principles."
+        ]
       }
 ]

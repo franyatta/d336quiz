@@ -11,5 +11,304 @@
         "answer": [
           "An incident"
         ]
+      },
+      {
+        "id": 2,
+        "question": "What is an organization?",
+        "options": [
+          "A person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives.",
+          "A structured system with specific rules and regulations designed to achieve long-term goals.",
+          "A collection of individuals with varying objectives and limited cooperation.",
+          "An informal group of people working together towards a common cause."
+        ],
+        "answer": [
+          "A person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives."
+        ]
+      },
+      {
+        "id": 3,
+        "question": "What is the joint activities performed by a service provider and a service consumer to ensure a continual value co-creation based on agreed and available service offerings?",
+        "options": [
+          "Service Relationship Management",
+          "Service Level Management",
+          "Service Portfolio Management",
+          "Incident Management"
+        ],
+        "answer": [
+          "Service Relationship Management"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What is change?",
+        "options": [
+          "The addition, modification, or removal of anything that could have a direct or indirect effect on services.",
+          "The process of improving a service's performance through minor adjustments.",
+          "A task to correct or update software in an operating system.",
+          "A reconfiguration of a system to enhance its functionality without altering services."
+        ],
+        "answer": [
+          "The addition, modification, or removal of anything that could have a direct or indirect effect on services."
+        ]
+      },
+      {
+        "id": 5,
+        "question": "What is a tangible or intangible deliverable of an activity?",
+        "options": [
+          "An output",
+          "A resource",
+          "A task",
+          "A milestone"
+        ],
+        "answer": [
+          "An output"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "What is a service offering?",
+        "options": [
+          "A description of one or more services, designed to address the needs of a target consumer group.",
+          "A list of all available services provided by an organization.",
+          "A system designed to monitor and report service quality.",
+          "An agreement between a service provider and a consumer about the quality of a service."
+        ],
+        "answer": [
+          "A description of one or more services, designed to address the needs of a target consumer group."
+        ]
+      },
+      {
+        "id": 7,
+        "question": "What is any change of state that has significance for the management of a service or other configuration item (CI)?",
+        "options": [
+          "An event",
+          "A service request",
+          "A change request",
+          "An incident"
+        ],
+        "answer": [
+          "An event"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "What is a configuration Item (CI)?",
+        "options": [
+          "Any component that needs to be managed in order to deliver an IT service.",
+          "Any software tool used to monitor IT infrastructure.",
+          "A document that outlines IT service strategies and policies.",
+          "A set of instructions for troubleshooting IT systems."
+        ],
+        "answer": [
+          "Any component that needs to be managed in order to deliver an IT service."
+        ]
+      },
+      {
+        "id": 9,
+        "question": "What is a means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks?",
+        "options": [
+          "A service",
+          "A product",
+          "A contract",
+          "A resource"
+        ],
+        "answer": [
+          "A service"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "What is a risk?",
+        "options": [
+          "A possible event that could cause harm or loss, or make it more difficult to achieve objectives.",
+          "A guaranteed event that will lead to failure or a loss.",
+          "A financial investment that increases the likelihood of achieving objectives.",
+          "A set of strategies to prevent the occurrence of an adverse event."
+        ],
+        "answer": [
+          "A possible event that could cause harm or loss, or make it more difficult to achieve objectives."
+        ]
+      },
+      {
+        "id": 11,
+        "question": "What is a result for a stakeholder enabled by one or more outputs?",
+        "options": [
+          "An outcome",
+          "An objective",
+          "An input",
+          "A resource"
+        ],
+        "answer": [
+          "An outcome"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "What is the user?",
+        "options": [
+          "The role that uses services.",
+          "The person who manages services.",
+          "The entity that provides services to others.",
+          "The team responsible for designing services."
+        ],
+        "answer": [
+          "The role that uses services."
+        ]
+      },
+      {
+        "id": 13,
+        "question": "What is any valuable component that can contribute to the delivery of an IT product or service?",
+        "options": [
+          "An IT asset",
+          "A service request",
+          "A configuration item",
+          "A user role"
+        ],
+        "answer": [
+          "An IT asset"
+        ]
+      },
+      {
+        "id": 14,
+        "question": "What is the sponsor?",
+        "options": [
+          "The role that authorizes budget for service consumption.",
+          "The individual responsible for designing services.",
+          "The team that manages IT infrastructure.",
+          "The user who consumes services."
+        ],
+        "answer": [
+          "The role that authorizes budget for service consumption."
+        ]
+      },
+      {
+        "id": 15,
+        "question": "What is a problem that has been analyzed but has not been resolved?",
+        "options": [
+          "A known error.",
+          "An incident.",
+          "A service request.",
+          "A risk."
+        ],
+        "answer": [
+          "A known error."
+        ]
+      },
+      {
+        "id": 16,
+        "question": "What is a risk?",
+        "options": [
+          "An uncertain outcome.",
+          "A guaranteed loss or failure.",
+          "A risk management strategy.",
+          "An event that has already occurred."
+        ],
+        "answer": [
+          "An uncertain outcome."
+        ]
+      },
+      {
+        "id": 17,
+        "question": "What is a service consumption?",
+        "options": [
+          "The activities performed by an organization to consume services.",
+          "The process of designing and implementing services.",
+          "The management of resources needed for service delivery.",
+          "The delivery of services by an external provider."
+        ],
+        "answer": [
+          "The activities performed by an organization to consume services."
+        ]
+      },
+      {
+        "id": 18,
+        "question": "What is the role that defines the requirements for a service and takes responsibility for the outcomes of a service consumption?",
+        "options": [
+          "The customer.",
+          "The sponsor.",
+          "The user.",
+          "The service provider."
+        ],
+        "answer": [
+          "The customer."
+        ]
+      },
+      {
+        "id": 19,
+        "question": "What is a problem?",
+        "options": [
+          "A cause or potential cause of prior, current, or future incidents.",
+          "A solution to a service issue.",
+          "An event that disrupts normal operations.",
+          "A risk that is guaranteed to happen."
+        ],
+        "answer": [
+          "A cause or potential cause of prior, current, or future incidents."
+        ]
+      },
+      {
+        "id": 20,
+        "question": "What is the activities performed by an organization to provide services?",
+        "options": [
+          "Service provision.",
+          "Service consumption.",
+          "Service management.",
+          "Service design."
+        ],
+        "answer": [
+          "Service provision."
+        ]
+      },
+      {
+        "id": 21,
+        "question": "What is warranty?",
+        "options": [
+          "Assurance that a product or service will meet agreed requirements.",
+          "A guarantee for the repair of faulty products.",
+          "A measure of the quality of a product or service.",
+          "A legal document that protects the seller from liability."
+        ],
+        "answer": [
+          "Assurance that a product or service will meet agreed requirements."
+        ]
+      },
+      {
+        "id": 22,
+        "question": "What is the perceived benefits, usefulness, and importance of something?",
+        "options": [
+          "Value.",
+          "Utility.",
+          "Quality.",
+          "Cost."
+        ],
+        "answer": [
+          "Value."
+        ]
+      },
+      {
+        "id": 23,
+        "question": "What is service management?",
+        "options": [
+          "A set of specialized organization capabilities for enabling value for customers in the form of services.",
+          "A process for delivering services to customers without any performance monitoring.",
+          "The method for ensuring service agreements are enforced by the service provider.",
+          "A strategy for designing and testing new services before they are released."
+        ],
+        "answer": [
+          "A set of specialized organization capabilities for enabling value for customers in the form of services."
+        ]
+      },
+      {
+        "id": 24,
+        "question": "What is the amount of money spent on a specific activity or resource?",
+        "options": [
+          "Cost.",
+          "Value.",
+          "Price.",
+          "Budget."
+        ],
+        "answer": [
+          "Cost."
+        ]
       }
 ]

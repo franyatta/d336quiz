@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business of IT - Applications - D336 Exam Practice</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      color: #2c3e50;
+    }
+    h1 {
+      margin: 20px 0;
+      font-size: 2.5rem;
+      color: #2c3e50;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    h1 a {
+      text-decoration: none;
+      color: inherit;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    /* Containers */
+    .question-container,
+    .results-container {
+      background: #fff;
+      width: 100%;
+      max-width: 700px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    
+    /* Options */
+    .options {
+      margin: 20px 0;
+    }
+    .option {
+      display: block;
+      padding: 10px 15px;
+      margin: 8px 0;
+      background: #ecf0f1;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .option:hover {
+      background: #d0d7de;
+    }
+    .option input {
+      margin-right: 10px;
+    }
+    
+    /* Buttons */
+    button {
+      padding: 12px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #2980b9;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #1c5980;
+      transform: translateY(-2px);
+    }
+    button:disabled {
+      background-color: #bdc3c7;
+      cursor: not-allowed;
+    }
+    
+    /* Navigation Buttons */
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    /* Feedback */
+    .result {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    .result.correct {
+      background-color: #e8f5e9;
+      border-color: #4caf50;
+      color: #2e7d32;
+    }
+    .result.incorrect {
+      background-color: #ffebee;
+      border-color: #f44336;
+      color: #c62828;
+    }
+    
+    /* Fix list alignment inside feedback */
+    .result ul {
+      margin: 10px 0 0 20px;
+      padding-left: 20px;
+      list-style-position: inside;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="https://github.com/franyatta/d336quiz.git">D336 Practice Quiz</a></h1>
+  <p>By FV</p>
+  
+  <div id="question-container" class="question-container"></div>
+  <div id="results-container" class="results-container"></div>
+  <button id="end-test-button">End Test</button>
+  <button id="retry-button" style="display: none;">Restart Exam</button>
+  
+  <script>
+    // Default questions URL
+    let questionsUrl = "https://gist.githubusercontent.com/franyatta/e3a124049a87386c234ad0dd2c415fef/raw/a7ce806b798625863346666d831d24f21a70c2bd/questions.json";
+
+    // Fetch questions from the given URL
+    async function fetchQuestions(url) {
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        alert("Failed to load questions. Please try again later.");
+        return [];
+      }
+    }
+
+    // Global variables for quiz state
+    let OS_QUESTIONS_DATA = [];
+    let questionsOrder = []; // Randomized order of question indices
+    let optionsOrder = []; // Randomized order of options for each question
+    let currentQuestionIndex = 0;
+    let userAnswers = [];  // Stores each question's user selection and correctness
+    let correctCount = 0;
+
+    const questionContainer = document.getElementById("question-container");
+    const resultsContainer = document.getElementById("results-container");
+    const endTestButton = document.getElementById("end-test-button");
+    const retryButton = document.getElementById("retry-button");
+
+    // Fisher-Yates shuffle to randomize array
+    function shuffle(array) {
+      let currentIndex = array.length, randomIndex;
+      while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+      }
+      return array;
+    }
+
+    async function startExam() {
+      correctCount = 0;
+      userAnswers = [];
+      optionsOrder = [];
+      resultsContainer.innerHTML = '';
+      retryButton.style.display = "none";
+      questionContainer.style.display = "block";
+      endTestButton.style.display = "inline-block";
+      
+      OS_QUESTIONS_DATA = await fetchQuestions(questionsUrl);
+      const totalQuestions = OS_QUESTIONS_DATA.length;
+      if(totalQuestions === 0){
+        resultsContainer.innerHTML = "<p>No questions available.</p>";
+        return;
+      }
+      
+      // Generate a random order of question indices
+      questionsOrder = shuffle([...Array(totalQuestions).keys()]);
+      
+      // Initialize randomized options order for each question
+      for (let i = 0; i < totalQuestions; i++) {
+        const questionIndex = questionsOrder[i];
+        const questionData = OS_QUESTIONS_DATA[questionIndex];
+        optionsOrder[i] = shuffle([...Array(questionData.options.length).keys()]);
+      }
+      
+      currentQuestionIndex = 0;
+      displayQuestion();
+    }
+
+    function displayQuestion() {
+      // Clear any previous feedback
+      resultsContainer.innerHTML = '';
+      
+      // Get current question data based on randomized order
+      const questionIndex = questionsOrder[currentQuestionIndex];
+      const questionData = OS_QUESTIONS_DATA[questionIndex];
+      const questionText = questionData.question;
+      const options = questionData.options;
+      const correctAnswersArray = questionData.answer;
+      const isMultipleChoice = correctAnswersArray.length > 1;
+      
+      // Get the randomized options order for this question
+      const randomizedOptions = optionsOrder[currentQuestionIndex];
+      
+      // Check if this question was already answered
+      const userAnswerData = userAnswers[currentQuestionIndex];
+      
+      // Build options markup with randomized order
+      let optionsHtml = '';
+      for (let i = 0; i < randomizedOptions.length; i++) {
+        const optionIndex = randomizedOptions[i];
+        const option = options[optionIndex];
+        
+        let checked = "";
+        let disabled = "";
+        if (userAnswerData && userAnswerData.selectedAnswers.includes(option)) {
+          checked = "checked";
+          disabled = "disabled";
+        }
+        
+        const inputType = isMultipleChoice ? "checkbox" : "radio";
+        optionsHtml += `<label class="option">
+                  <input type="${inputType}" name="option" value="${option}" data-index="${optionIndex}" ${checked} ${disabled}> ${option}
+                </label>`;
+      }
+      
+      // If answered, display feedback.
+      let feedbackHtml = "";
+      if(userAnswerData){
+        const formattedAnswers = correctAnswersArray.map(answer => `<li>${answer}</li>`).join('');
+        if(userAnswerData.isCorrect){
+          feedbackHtml = `<div class="result correct" style="display:block;">Correct! <ul>${formattedAnswers}</ul></div>`;
+        } else {
+          feedbackHtml = `<div class="result incorrect" style="display:block;">Incorrect. <ul>${formattedAnswers}</ul></div>`;
+        }
+      }
+      
+      // Build navigation buttons
+      let navHtml = `<div class="nav-buttons">
+                        <button id="prev-question-button" ${currentQuestionIndex === 0 ? "disabled" : ""}>Previous</button>`;
+      if(userAnswerData){
+        navHtml += `<button id="next-question-button">${currentQuestionIndex === questionsOrder.length - 1 ? "Finish Quiz" : "Next"}</button>`;
+      } else {
+        if(isMultipleChoice){
+          navHtml += `<button id="submit-answer-button">Submit Answer</button>`;
+        } else {
+          navHtml += `<button id="submit-answer-button" disabled>Submit Answer</button>`;
+        }
+      }
+      navHtml += `</div>`;
+      
+      // Display the question, options, any feedback, and navigation buttons.
+      questionContainer.innerHTML = `<p><strong>Question ${currentQuestionIndex + 1} of ${questionsOrder.length}:</strong> ${questionText}</p>
+                                    <div class="options">${optionsHtml}</div>
+                                    ${feedbackHtml}
+                                    ${navHtml}`;
+      
+      const inputs = document.querySelectorAll('input[name="option"]');
+      
+      // If the question is not yet answered, add event listeners for enabling/disabling the submit button.
+      if(!userAnswerData){
+        const submitButton = document.getElementById("submit-answer-button");
+        inputs.forEach(input => {
+          input.addEventListener("change", function() {
+            if(!isMultipleChoice){
+              const selectedInputs = document.querySelectorAll('input[name="option"]:checked');
+              submitButton.disabled = selectedInputs.length === 0;
+            }
+            // For multiple-answer questions, the submit button remains enabled.
+          });
+        });
+        
+        if(submitButton){
+          submitButton.addEventListener("click", function() {
+            const selectedAnswers = Array.from(inputs)
+                                        .filter(input => input.checked)
+                                        .map(input => input.value);
+            let isCorrect = false;
+            if(isMultipleChoice){
+              isCorrect = selectedAnswers.length === correctAnswersArray.length &&
+                          selectedAnswers.every(answer => correctAnswersArray.includes(answer));
+            } else {
+              isCorrect = correctAnswersArray.includes(selectedAnswers[0]);
+            }
+            // Store the user's answer and correctness.
+            userAnswers[currentQuestionIndex] = { selectedAnswers, isCorrect };
+            if(isCorrect) {
+              correctCount++;
+            }
+            displayQuestion();
+          });
+        }
+      }
+      
+      // Attach event listeners to navigation buttons.
+      const prevButton = document.getElementById("prev-question-button");
+      if(prevButton){
+        prevButton.addEventListener("click", function(){
+          if(currentQuestionIndex > 0){
+            currentQuestionIndex--;
+            displayQuestion();
+          }
+        });
+      }
+      const nextButton = document.getElementById("next-question-button");
+      if(nextButton){
+        nextButton.addEventListener("click", function(){
+          if(currentQuestionIndex < questionsOrder.length - 1){
+            currentQuestionIndex++;
+            displayQuestion();
+          } else {
+            showResults();
+          }
+        });
+      }
+    }
+
+    function showResults(){
+      questionContainer.style.display = "none";
+      endTestButton.style.display = "none";
+      let finalScoreHtml = `<p>You have completed the exam!</p>
+                            <p>Your score: ${correctCount} out of ${questionsOrder.length}</p>`;
+      resultsContainer.innerHTML = finalScoreHtml;
+      // Show the restart exam button at the end.
+      retryButton.style.display = "inline-block";
+    }
+
+    endTestButton.addEventListener("click", function(){
+      showResults();
+    });
+
+    retryButton.addEventListener("click", function(){
+      startExam();
+    });
+
+    // Start the exam when the page loads.
+    startExam();
+  </script>
+</body>
+</html>

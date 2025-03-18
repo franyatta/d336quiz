@@ -310,5 +310,150 @@
         "answer": [
           "Cost."
         ]
-      }
+      },
+      {
+        "id": 25,
+        "question": "What is the functionality offered by a product or service to meet a particular need?",
+        "options": [
+          "Utility.",
+          "Value.",
+          "Quality.",
+          "Feature."
+        ],
+        "answer": [
+          "Utility."
+        ]
+      },
+      {
+        "id": 26,
+        "question": "What is a stakeholder responsible for providing services that are used by an organization?",
+        "options": [
+          "A supplier.",
+          "A customer.",
+          "A partner.",
+          "A user."
+        ],
+        "answer": [
+          "A supplier."
+        ]
+      },
+      {
+        "id": 27,
+        "question": "What is a support team?",
+        "options": [
+          "A team with the responsibility to maintain normal operations, address users' requests, and resolve incidents and problems related to specified products, services, or other configuration items.",
+          "A team that focuses on designing and implementing new services or products.",
+          "A team responsible for managing financial transactions and budgets.",
+          "A team dedicated to marketing and promoting products and services."
+        ],
+        "answer": [
+          "A team with the responsibility to maintain normal operations, address users' requests, and resolve incidents and problems related to specified products, services, or other configuration items."
+        ]
+      },
+      {
+        "id": 28,
+        "question": "What is a business unit or project to which costs are assigned?",
+        "options": [
+          "A Cost Centre.",
+          "A Profit Centre.",
+          "A Budget.",
+          "A Service Desk."
+        ],
+        "answer": [
+          "A Cost Centre."
+        ]
+      },
+      {
+        "id": 29,
+        "question": "What is an organization?",
+        "options": [
+          "A person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives.",
+          "A system designed to manage data and resources in computing.",
+          "A collection of unrelated individuals working without a common goal.",
+          "A structure designed to provide services to external clients."
+        ],
+        "answer": [
+          "A person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives."
+        ]
+      },
+      {
+        "id": 30,
+        "question": "What is a role performed by an organization in a service relationship to provide services to consumers?",
+        "options": [
+          "A service provider.",
+          "A service consumer.",
+          "A service user.",
+          "A service sponsor."
+        ],
+        "answer": [
+          "A service provider."
+        ]
+      },
+      {
+        "id": 31,
+        "question": "What is the business relationship manager?",
+        "options": [
+          "A role responsible for maintaining good relationships with one or more customers.",
+          "A role responsible for designing and implementing new services.",
+          "A role responsible for managing IT infrastructure and operations.",
+          "A role that focuses on financial management and cost optimization."
+        ],
+        "answer": [
+          "A role responsible for maintaining good relationships with one or more customers."
+        ]
+      },
+      {
+        "id": 32,
+        "question": "What is the role that uses services?",
+        "options": [
+          "The user.",
+          "The service provider.",
+          "The sponsor.",
+          "The business relationship manager."
+        ],
+        "answer": [
+          "The user."
+        ]
+      },
+      {
+        "id": 33,
+        "question": "What is the change authority?",
+        "options": [
+          "A person or group responsible for authorizing change.",
+          "A person or group responsible for implementing change.",
+          "A person or group responsible for monitoring change requests.",
+          "A person or group responsible for planning and managing changes."
+        ],
+        "answer": [
+          "A person or group responsible for authorizing change."
+        ]
+      },
+      {
+        "id": 34,
+        "question": "What is the role that submits service requests?",
+        "options": [
+          "The User.",
+          "The Service Provider.",
+          "The Service Desk.",
+          "The Business Relationship Manager."
+        ],
+        "answer": [
+          "The User."
+        ]
+      },
+      {
+        "id": 35,
+        "question": "What is the sponsor?",
+        "options": [
+          "An organization or individual that provides financial or other support for an initiative.",
+          "A person responsible for overseeing service delivery.",
+          "An individual who provides feedback on the service performance.",
+          "A person who directly interacts with customers to implement services."
+        ],
+        "answer": [
+          "An organization or individual that provides financial or other support for an initiative."
+        ]
+      },
+      
+
 ]

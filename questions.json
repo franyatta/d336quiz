@@ -1441,5 +1441,317 @@
         "answer": [
           "The ITIL guiding principles."
         ]
-      }
+      },
+      {
+        "id": 113,
+        "question": "Which practice ensures issues are acknowledged, classified, owned, and actioned?",
+        "options": [
+          "The Service Desk.",
+          "Incident Management.",
+          "Problem Management.",
+          "Change Management."
+        ],
+        "answer": [
+          "The Service Desk."
+        ]
+      },
+      {
+        "id": 114,
+        "question": "Which statement about a practice describes the service desk?",
+        "options": [
+          "Is focused on providing support for 'people and business' rather than simply technical issues.",
+          "Is responsible for resolving technical issues without engaging the user.",
+          "Provides a communication channel between the IT department and external vendors.",
+          "Monitors system performance and ensures network security."
+        ],
+        "answer": [
+          "Is focused on providing support for 'people and business' rather than simply technical issues."
+        ]
+      },
+      {
+        "id": 115,
+        "question": "Which practice suggests Lean, Agile and DevOps as approaches to consider?",
+        "options": [
+          "Continual Improvement.",
+          "Change Management.",
+          "Service Level Management.",
+          "Incident Management."
+        ],
+        "answer": [
+          "Continual Improvement."
+        ]
+      },
+      {
+        "id": 116,
+        "question": "Which statement about a practice describes continual improvement?",
+        "options": [
+          "Asks the question 'Where do we want to be'.",
+          "Focuses only on fixing current service issues.",
+          "Implements changes without analyzing outcomes.",
+          "Avoids involving stakeholders in the improvement process."
+        ],
+        "answer": [
+          "Asks the question 'Where do we want to be'."
+        ]
+      },
+      {
+        "id": 117,
+        "question": "Which practice recommends that organizations should develop competencies in methods and techniques that meet their needs?",
+        "options": [
+          "Continual Improvement.",
+          "Change Management.",
+          "Service Level Management.",
+          "Incident Management."
+        ],
+        "answer": [
+          "Continual Improvement."
+        ]
+      },
+      {
+        "id": 118,
+        "question": "Which statement about a practice describes problem management?",
+        "options": [
+          "Reduces the number and impact of future incidents.",
+          "Manages user requests and queries.",
+          "Allocates resources to service improvements.",
+          "Identifies and resolves service disruptions in real time."
+        ],
+        "answer": [
+          "Reduces the number and impact of future incidents."
+        ]
+      },
+  {
+    "id": 119,
+    "question": "Which practice makes the peer review a top predictor of high performance?",
+    "options": [
+      "Change enablement.",
+      "Service level management.",
+      "Incident management.",
+      "Problem management."
+    ],
+    "answer": [
+      "Change enablement."
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Which statement about a practice describes service request management?",
+    "options": [
+      "Has policies for redirecting incidents and change requests.",
+      "Focuses solely on addressing high-impact incidents.",
+      "Deals with the detection and elimination of service outages.",
+      "Is responsible for implementing large-scale changes across services."
+    ],
+    "answer": [
+      "Has policies for redirecting incidents and change requests."
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Which practice fulfills standard changes?",
+    "options": [
+      "Service Request Management.",
+      "Change Enablement.",
+      "Incident Management.",
+      "Problem Management."
+    ],
+    "answer": [
+      "Service Request Management."
+    ]
+  },
+  {
+    "id": 122,
+    "question": "Which statement about a practice describes continual improvement?",
+    "options": [
+      "Recommends selecting a few key methods to facilitate more change at a quicker rate.",
+      "Focuses on solving only the most critical service problems.",
+      "Ensures that no changes are implemented without the approval of all stakeholders.",
+      "Uses complex metrics to analyze past performance and predict future trends."
+    ],
+    "answer": [
+      "Recommends selecting a few key methods to facilitate more change at a quicker rate."
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Which practice provides visibility of the organization's services by capturing and reporting on service performance?",
+    "options": [
+      "Service level management.",
+      "Incident management.",
+      "Problem management.",
+      "Change enablement."
+    ],
+    "answer": [
+      "Service level management."
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Which statement about a practice describes service request management?",
+    "options": [
+      "Provides support for managing feedback, compliments and complaints from users.",
+      "Focuses solely on incident resolution and recovery.",
+      "Manages service performance and monitoring.",
+      "Handles the management of organizational resources."
+    ],
+    "answer": [
+      "Provides support for managing feedback, compliments and complaints from users."
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Which practice captures and reports on service issues?",
+    "options": [
+      "Service level management.",
+      "Incident management.",
+      "Problem management.",
+      "Change enablement."
+    ],
+    "answer": [
+      "Service level management."
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Which statement about a practice describes service level management?",
+    "options": [
+      "Establishes a shared view of the services and target service levels with customers.",
+      "Focuses on resolving incidents and service requests.",
+      "Manages the allocation of resources to service providers.",
+      "Involves continuous monitoring of system performance."
+    ],
+    "answer": [
+      "Establishes a shared view of the services and target service levels with customers."
+    ]
+      },
+  {
+    "id": 127,
+    "question": "Which practice requires the key skill of being able to fully understand and diagnose a specific incident in terms of business priority?",
+    "options": [
+      "The service desk.",
+      "Incident management.",
+      "Change enablement.",
+      "Problem management."
+    ],
+    "answer": [
+      "The service desk."
+    ]
+  },
+  {
+    "id": 128,
+    "question": "Which statement about a practice describes service level management?",
+    "options": [
+      "Identifies metrics that reflect the customer's experience of a service.",
+      "Defines and manages the service provider's internal processes.",
+      "Coordinates with suppliers to ensure compliance with service agreements.",
+      "Sets internal targets for service quality without engaging with customers."
+    ],
+    "answer": [
+      "Identifies metrics that reflect the customer's experience of a service."
+    ]
+  },
+  {
+    "id": 129,
+    "question": "Which practice investigates and analyzes incidents to identify the causes, develop workarounds, and recommend longer-term resolution?",
+    "options": [
+      "Problem management.",
+      "Incident management.",
+      "Change enablement.",
+      "Service level management."
+    ],
+    "answer": [
+      "Problem management."
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Which statement about a practice describes the service desk?",
+    "options": [
+      "Provides a single point of contact for users.",
+      "Handles incident management and problem resolution only.",
+      "Focuses on service provider's internal processes.",
+      "Coordinates the deployment of service upgrades."
+    ],
+    "answer": [
+      "Provides a single point of contact for users."
+    ]
+      },
+  {
+    "id": 131,
+    "question": "Which practice reviews and improves workarounds after problem analysis has been completed?",
+    "options": [
+      "Problem management.",
+      "Incident management.",
+      "Change enablement.",
+      "Service level management."
+    ],
+    "answer": [
+      "Problem management."
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Which statement about a practice describes the service desk?",
+    "options": [
+      "Can be accessed peer-to-peer via forums.",
+      "Handles service requests through a direct phone line only.",
+      "Provides a centralized communication point for managing user interactions.",
+      "Requires users to email their issues to the IT department."
+    ],
+    "answer": [
+      "Can be accessed peer-to-peer via forums."
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Which practice has two principle models: Centralized and virtual?",
+    "options": [
+      "The service desk.",
+      "Incident management.",
+      "Change enablement.",
+      "Problem management."
+    ],
+    "answer": [
+      "The service desk."
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Which statement about a practice describes service request management?",
+    "options": [
+      "Standardizes and automates its work to the greatest degree possible.",
+      "Focuses on resolving incidents and service outages.",
+      "Manages service contracts and supplier agreements.",
+      "Prioritizes user requests based on business impact."
+    ],
+    "answer": [
+      "Standardizes and automates its work to the greatest degree possible."
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Which practice is the responsibility of everyone in the organization?",
+    "options": [
+      "Continual improvement.",
+      "Change management.",
+      "Service level management.",
+      "Incident management."
+    ],
+    "answer": [
+      "Continual improvement."
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Which statement about a practice describes incident management?",
+    "options": [
+      "May involve the initiation of disaster recovery.",
+      "Focuses on managing service design and improvements.",
+      "Defines and maintains the service catalog.",
+      "Addresses only the resolution of service-related problems."
+    ],
+    "answer": [
+      "May involve the initiation of disaster recovery."
+    ]
+  }
 ]

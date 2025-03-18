@@ -869,5 +869,343 @@
         "answer": [
           "A value stream."
         ]
+      },
+      {
+        "id": 69,
+        "question": "Which guiding principle recommends identifying bottlenecks, as well as excess capacity?",
+        "options": [
+          "Collaborate and promote visibility.",
+          "Focus on value.",
+          "Start where you are.",
+          "Progress iteratively with feedback."
+        ],
+        "answer": [
+          "Collaborate and promote visibility."
+        ]
+      },
+      {
+        "id": 70,
+        "question": "Which is a key consideration for the guiding principle progress iteratively with feedback?",
+        "options": [
+          "Organizing work into smaller, manageable sections that can be executed and completed in a timely manner.",
+          "Planning all tasks in advance to avoid unexpected issues.",
+          "Concentrating on one large task at a time to achieve complete solutions.",
+          "Ensuring the entire project is completed before obtaining feedback."
+        ],
+        "answer": [
+          "Organizing work into smaller, manageable sections that can be executed and completed in a timely manner."
+        ]
+      },
+      {
+        "id": 71,
+        "question": "Which guiding principle recommends mapping out the standard and repeating processes and streamline where you can?",
+        "options": [
+          "Optimize and automate.",
+          "Focus on value.",
+          "Collaborate and promote visibility.",
+          "Start where you are."
+        ],
+        "answer": [
+          "Optimize and automate."
+        ]
+      },
+      {
+        "id": 72,
+        "question": "Which is a key consideration for the guiding principle optimize and automate?",
+        "options": [
+          "That technology should not always be relied upon without the capability of human intervention.",
+          "That automation should replace all manual processes to improve efficiency.",
+          "That automation should be avoided if there is a risk of reducing quality.",
+          "That processes should be automated only when they become too complex."
+        ],
+        "answer": [
+          "That technology should not always be relied upon without the capability of human intervention."
+        ]
+      },
+      {
+        "id": 73,
+        "question": "Which guiding principle recommends collecting data before deciding what can be re-used?",
+        "options": [
+          "Start where you are.",
+          "Progress iteratively with feedback.",
+          "Collaborate and promote visibility.",
+          "Optimize and automate."
+        ],
+        "answer": [
+          "Start where you are."
+        ]
+      },
+      {
+        "id": 74,
+        "question": "Which is a key consideration for the guiding principle focus on value?",
+        "options": [
+          "Everything the organization does should link back, directly or indirectly, to value for itself, its customers, and other stakeholders.",
+          "The organization should prioritize activities that are easy to implement without significant investment.",
+          "The organization should focus on short-term outcomes and quick wins to deliver value.",
+          "The organization should avoid changes that might disrupt established practices, even if they add value."
+        ],
+        "answer": [
+          "Everything the organization does should link back, directly or indirectly, to value for itself, its customers, and other stakeholders."
+        ]
+      },
+      {
+        "id": 75,
+        "question": "Which guiding principle recommends working in an integrated way to handle activities as a whole, rather than as separate parts?",
+        "options": [
+          "Think and work holistically.",
+          "Start where you are.",
+          "Optimize and automate.",
+          "Progress iteratively with feedback."
+        ],
+        "answer": [
+          "Think and work holistically."
+        ]
+      },
+      {
+        "id": 76,
+        "question": "Which is a key consideration for the guiding principle collaborate and promote visibility?",
+        "options": [
+          "Uncovering waste.",
+          "Limiting communication to essential stakeholders only.",
+          "Working independently to avoid distractions.",
+          "Keeping all decisions confidential until implementation."
+        ],
+        "answer": [
+          "Uncovering waste."
+        ]
+      },
+      {
+        "id": 77,
+        "question": "Which guiding principle recommends that the first step is to determine who the service consumer is and who the key stakeholders are?",
+        "options": [
+          "Focus on value.",
+          "Start where you are.",
+          "Progress iteratively with feedback.",
+          "Collaborate and promote visibility."
+        ],
+        "answer": [
+          "Focus on value."
+        ]
+      },
+      {
+        "id": 78,
+        "question": "Which is a key consideration for the guiding principle start where you are?",
+        "options": [
+          "Recognizing that sometimes nothing from the current state can be re-used.",
+          "Focusing only on new processes and technologies.",
+          "Avoiding any changes until a new solution is designed.",
+          "Prioritizing immediate large-scale transformations over small improvements."
+        ],
+        "answer": [
+          "Recognizing that sometimes nothing from the current state can be re-used."
+        ]
+      },
+      {
+        "id": 79,
+        "question": "Which guiding principle recommends involving the right people in the correct roles so that initiatives benefit from better buy-in, more relevance and increased likelihood of long-term success?",
+        "options": [
+          "Collaborate and promote visibility.",
+          "Focus on value.",
+          "Start where you are.",
+          "Progress iteratively with feedback."
+        ],
+        "answer": [
+          "Collaborate and promote visibility."
+        ]
+      },
+      {
+        "id": 80,
+        "question": "Which is a key consideration for the guiding principle think and work holistically?",
+        "options": [
+          "That the 4 dimensions are considered.",
+          "That processes are isolated from each other.",
+          "That only technical solutions are prioritized.",
+          "That a single solution is applied across all areas."
+        ],
+        "answer": [
+          "That the 4 dimensions are considered."
+        ]
+      },
+      {
+        "id": 81,
+        "question": "Which guiding principle recommends designing rules to handle exceptions when creating a process or a service?",
+        "options": [
+          "Keep it simple and practical.",
+          "Think and work holistically.",
+          "Optimize and automate.",
+          "Focus on value."
+        ],
+        "answer": [
+          "Keep it simple and practical."
+        ]
+      },
+      {
+        "id": 82,
+        "question": "Which is a key consideration for the guiding principle keep it simple and practical?",
+        "options": [
+          "Using outcome-based thinking to produce practical solutions that deliver valuable outcomes.",
+          "Focusing on complex solutions to ensure long-term flexibility.",
+          "Simplifying processes by eliminating all rules and policies.",
+          "Prioritizing automation over human intervention."
+        ],
+        "answer": [
+          "Using outcome-based thinking to produce practical solutions that deliver valuable outcomes."
+        ]
+      },
+      {
+        "id": 83,
+        "question": "Which guiding principle recommends using the minimum number of steps to accomplish an objective?",
+        "options": [
+          "Keep it simple and practical.",
+          "Focus on value.",
+          "Collaborate and promote visibility.",
+          "Start where you are."
+        ],
+        "answer": [
+          "Keep it simple and practical."
+        ]
+      },
+      {
+        "id": 84,
+        "question": "Which is a key consideration for the guiding principle think and work holistically?",
+        "options": [
+          "Automation to support end-to-end visibility for the organization and provide an efficient means of integrated management.",
+          "Focusing only on the individual components of a system without considering the whole.",
+          "Optimizing the technical aspects of a process without considering human interaction.",
+          "Implementing separate solutions for different departments within the organization."
+        ],
+        "answer": [
+          "Automation to support end-to-end visibility for the organization and provide an efficient means of integrated management."
+        ]
+      },
+      {
+        "id": 85,
+        "question": "Which guiding principle recommends comprehending the whole but doing something?",
+        "options": [
+          "Progress iteratively with feedback.",
+          "Focus on value.",
+          "Collaborate and promote visibility.",
+          "Start where you are."
+        ],
+        "answer": [
+          "Progress iteratively with feedback."
+        ]
+      },
+      {
+        "id": 86,
+        "question": "Which is a key consideration for the guiding principle collaborate and promote visibility?",
+        "options": [
+          "Understanding the flow of work in progress.",
+          "Prioritizing financial objectives over collaboration.",
+          "Limiting information sharing to avoid information overload.",
+          "Working independently to maximize personal productivity."
+        ],
+        "answer": [
+          "Understanding the flow of work in progress."
+        ]
+      },
+      {
+        "id": 87,
+        "question": "Which guiding principle recommends selecting the right method and message for each audience to ensure success?",
+        "options": [
+          "Collaborate and promote visibility.",
+          "Progress iteratively with feedback.",
+          "Be transparent and seek consensus.",
+          "Tailor communication to stakeholders."
+        ],
+        "answer": [
+          "Collaborate and promote visibility."
+        ]
+      },
+      {
+        "id": 88,
+        "question": "Which is a key consideration for the guiding principle keep it simple and practical?",
+        "options": [
+          "Starting with an uncomplicated approach before carefully adding controls, activities, or metrics when it is seen that they are truly needed.",
+          "Implementing all possible controls and metrics at the beginning to ensure thorough monitoring.",
+          "Creating detailed documentation for every process regardless of complexity.",
+          "Focusing on theoretical perfection rather than practical application."
+        ],
+        "answer": [
+          "Starting with an uncomplicated approach before carefully adding controls, activities, or metrics when it is seen that they are truly needed."
+        ]
+      },
+      {
+        "id": 89,
+        "question": "Which guiding principle recommends concentrating on the consumer's revenue and growth?",
+        "options": [
+          "Focus on value.",
+          "Optimize resource utilization.",
+          "Maximize operational efficiency.",
+          "Accelerate time to market."
+        ],
+        "answer": [
+          "Focus on value."
+        ]
+      },
+      {
+        "id": 90,
+        "question": "Which is a key consideration for the guiding principle keep it simple and practical?",
+        "options": [
+          "Eliminating processes, services, actions, or metrics that fail to provide value or produce a useful outcome.",
+          "Creating comprehensive documentation for every potential scenario.",
+          "Implementing all available controls regardless of necessity.",
+          "Adding layers of governance to ensure complete oversight."
+        ],
+        "answer": [
+          "Eliminating processes, services, actions, or metrics that fail to provide value or produce a useful outcome."
+        ]
+      },
+      {
+        "id": 91,
+        "question": "Which guiding principle recommends using different heuristics when making decisions with different levels of complexity?",
+        "options": [
+          "Think and work holistically.",
+          "Progress iteratively with feedback.",
+          "Optimize for specific contexts.",
+          "Apply situational decision-making."
+        ],
+        "answer": [
+          "Think and work holistically."
+        ]
+      },
+      {
+        "id": 92,
+        "question": "Which is a key consideration for the guiding principle start where you are?",
+        "options": [
+          "You should not start over without first considering what is already available to be leveraged.",
+          "Always begin with completely new processes and systems.",
+          "Disregard existing assets and capabilities to ensure innovation.",
+          "Focus exclusively on future state architecture rather than current state."
+        ],
+        "answer": [
+          "You should not start over without first considering what is already available to be leveraged."
+        ]
+      },
+      {
+        "id": 93,
+        "question": "Which guiding principle recommends doing fewer things, but doing them better?",
+        "options": [
+          "Keep it simple and practical.",
+          "Maximize resource efficiency.",
+          "Expand scope continuously.",
+          "Prioritize quantity over quality."
+        ],
+        "answer": [
+          "Keep it simple and practical."
+        ]
+      },
+      {
+        "id": 94,
+        "question": "Which is a key consideration for the guiding principle keep it simple and practical?",
+        "options": [
+          "Respecting the time of the people involved.",
+          "Creating elaborate documentation for all processes.",
+          "Implementing complex solutions to demonstrate expertise.",
+          "Extending meetings to cover all possible scenarios."
+        ],
+        "answer": [
+          "Respecting the time of the people involved."
+        ]
       }
 ]

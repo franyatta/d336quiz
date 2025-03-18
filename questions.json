@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "question": "What is an unplanned interruption to a service or reduction in the quality of a service?",
+        "options": [
+          "An incident",
+          "A feature",
+          "An update",
+          "A service maintenence"
+        ],
+        "answer": [
+          "An incident"
+        ]
+      }
+]
